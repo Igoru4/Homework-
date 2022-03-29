@@ -1,0 +1,8 @@
+body {
+    background-color: rgba(209, 209, 209, 0.685);
+}
+#author{
+    color: white;
+    background-color:rgb(95, 96, 141);
+    text-align: right;
+}
