@@ -1,0 +1,284 @@
+*{
+    margin: 0 auto;
+} 
+.block{
+    
+    border: solid black;
+    background-color: cornsilk ;
+    height: 700px;
+    width: 900px; 
+}
+.block-1{
+    padding: 20px;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center; 
+    background-color: rgb(211, 185, 153);
+}
+.head{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+}
+.menu{
+    margin-top:20px  ;
+}
+.menu{
+    text-align: center;
+}
+.menu-1{
+    background-color: blueviolet;
+    height: 70px; 
+    float: right;   
+    width: 180px;
+}
+.menu-2{
+    background-color: blue;
+    height: 70px; 
+    width: 180px; 
+    float: left;   
+}
+.menu-3{
+    background-color: seagreen;
+    height: 70px;
+    width: 180px;
+    float: right;    
+}
+.menu-4{
+    background-color: brown;
+    height: 70px;
+    width: 180px;
+    float: right;   
+}
+.menu-5{
+    background-color: skyblue;
+    height: 70px;  
+    width: 180px;
+    float: right;
+}
+.one{
+    background-color: white;
+    width: 300px;
+    float: right;
+    height: 400px;
+}
+.two{
+    background-color: teal;
+    width: 300px;
+    float: right;
+    height: 400px;
+    text-align: center;
+    font-size: larger;
+}
+.three{
+    background-color:green;
+    width: 300px;
+    float: right;
+    height: 400px;
+    
+}
+.text{
+    background-color: gray;
+    margin-top: 10px;
+    width: 200px;
+    padding-top: 20px;
+    text-align: center;
+    height: 70px;
+}
+.p{
+    margin-top: 15px;
+    font-size: larger;
+}
+.three-2{
+    
+    width: 150px;
+    margin-top: 100px;
+    
+}
+.the{
+    background-color: brown;
+    height: 60px;
+    text-align: center;
+    font-size: larger;
+}
+.four{
+    background-color: pink;
+    float: right;
+    width: 75px;
+    height: 140px;
+    text-align: center;
+    font-size: larger;
+}
+.five{
+    background-color: bisque;
+    height: 140px;
+    text-align: center;
+    font-size: larger;
+}
+.B{
+    background-color: aquamarine;
+    float: left;
+    width: 100px;
+    
+    height: 378px;
+    
+}
+.C1{
+    background-color: azure;
+    float: left;
+    width: 100px;
+    height: 378px;
+    text-align: center;
+}
+
+.D{
+    background-color: aqua;
+    float: left;
+    width: 100px;
+    height: 378px;
+    text-align: center;
+}
+
+.B1{
+    background-color: brown;
+    width: 50px;
+    margin: 0;
+    margin-top: 100px;
+    float: left;
+    height: 278px;
+}
+.B2{
+    background-color: chartreuse;
+    width: 50px;
+    float:left ;
+    margin-top: 200px;
+    height: 157px;
+}
+
+.C2{
+    background-color:blue;
+    margin-top: 50px;
+    height: 90px;
+}
+.C3{
+    background-color: blueviolet;
+    height: 90px;
+}
+.C4{
+    background-color: white;
+    float: left;
+    
+}
+.C5{
+    background-color: palevioletred;
+    float: right;
+    width: 50px;
+    height: 128px;
+}
+.D1{
+    margin-top: 100px;
+    background-color:cadetblue;
+    height: 100px;
+}
+.D3{
+    height: 158px;
+    background-color: antiquewhite;
+}
+.rum1{
+    background-color: darkolivegreen;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 21.5px;
+}
+.rum2{
+    background-color: darkmagenta;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 21.5px;
+}
+
+.rum3{
+    background-color: orange;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 21.5px;
+}
+.fff{
+    background-color: aliceblue;
+    height: 100px;
+}
+.sss{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}
+.black{
+    background-color: black;
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.rum6{
+    background-color: beige;
+    height: 100px;
+    text-align: center;
+    font-size: larger;
+}
+.rum7{
+    background-color: darkslategrey;
+    float: left;
+    width: 80px;
+    height: 202px;
+    text-align: center;
+    font-size: larger;
+}
+
+.rum8{
+    background-color: gray;
+    float: left;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    font-size: larger;
+}
+.rum9{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: larger;
+    float: left;
+    width: 110px;
+    height: 70px;
+}
+.rum10{
+    background-color: bisque;
+    text-align: center;
+    font-size: larger;
+    float: left;
+    width: 110px;
+    height: 70px;
+}
+.rum11{
+    background-color: palevioletred;
+    text-align: center;
+    font-size: larger;
+    padding: 41px;
+   
+}
+.basement{
+    background-color: gray;
+    text-align: center;
+    font-size: larger;
+    padding: 99px;
+}
+.img{
+    width: 5px;
+}

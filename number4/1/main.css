@@ -1,0 +1,46 @@
+*{
+    margin:0 auto;
+    padding: 5px;
+    
+}
+.block-1{
+    
+    background-color: aqua;
+    width: 300px;
+    height: 120px;
+    border: dashed red;
+    border-width: 2px;
+    margin-bottom: 10px;
+
+
+    
+}
+.block-2{
+    
+    background-color: yellow;
+    width: 300px;
+    height: 120px;
+    border: dotted red;
+    border-width:2px; 
+    margin-bottom: 10px;
+    
+
+}
+.block-3{
+    background-color: aqua;
+    width: 300px;
+    height: 120px ;
+    border: inset blue;
+    border-width:20px; 
+    margin-bottom: 10px;
+}
+.block-4{
+    background-color: aqua;
+    width: 300px;
+    height: 120px;
+    border-left:ridge black;
+    border-width: 10px;
+    
+
+     
+}
