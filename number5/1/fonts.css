@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Sho";
+    src: url('./fonts/Shojumaru-Regular.ttf')
+}
+@font-face{
+    font-family: "Zilla-reg";
+    src: url('./fonts/ZillaSlab-Regular.ttf')
+}
+@font-face{
+    font-family: "Zilla-med";
+    src: url('./fonts/ZillaSlab-Medium.ttf')
+}
+@font-face{
+    font-family: "Zilla-bold";
+    src: url('./fonts/ZillaSlab-Bold.ttf')
+}
