@@ -1,0 +1,84 @@
+@import url(.//fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    padding: 44px;
+    margin: 0 auto;
+ 
+}
+li{
+    list-style-type: none;
+    margin: 0 auto;
+    font-family: 'Bahij';
+    font-size: 30px;
+    
+}
+a{
+    transition: all .5s;
+}
+li a:hover{
+    cursor: pointer;
+    color: rgba(39, 133, 247, 1);
+}
+.main{
+  
+    margin: 0 auto;
+    font-family: 'Bahij';
+    height: 75vh;
+    width: 97%;
+    background-color: rgba(234, 235, 237, 1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+section{
+    width: 21%;
+    height: 30vh;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    transition: all;
+}
+section img{
+    width: 33%;
+    border-radius: 50px;
+
+}
+section span{
+    color: rgba(177, 177, 177, 1);
+    
+}
+section p{
+    font-size: 30px;
+}
+section:hover{
+    cursor: pointer;
+    background-color: rgba(39, 133, 247, 1);
+}
+section:hover p{
+   
+    background-color: rgba(39, 133, 247, 1);
+    color: white;
+}
+section:hover span{
+ 
+    background-color: rgba(39, 133, 247, 1);
+    color: white;
+}
+
+
+
