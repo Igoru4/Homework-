@@ -1,0 +1,103 @@
+@import url(.//fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Bahij';
+    font-size: 30px;
+    list-style-type: none;
+}
+.sss ul{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    padding: 44px;
+    margin: 0 auto;
+}
+.sss ul li{
+  
+    margin: 0 auto;
+   
+    
+}
+a{
+    transition: all .5s;
+}
+li a:hover{
+    cursor: pointer;
+    color: rgba(39, 133, 247, 1);
+}
+.main{
+    font-family: 'Bahij';
+    height: 75vh;
+    width: 97%;
+    background-color: rgba(234, 235, 237, 1);
+    border-radius: 15px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+ 
+ 
+.header  ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+.header  ul li{
+    width: 150px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    white-space: nowrap;
+}
+
+.info ul{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 40px;
+    padding-left : 100px;
+    margin-left: 50px;
+    padding-right: 100px;
+}
+.info ul li{
+    width: 138px;
+    padding-left: 5px;
+    
+}
+.info .number{
+    padding-left: 100px;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+  }
+
+ .info ul svg{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px;
+    font-weight: 900;
+    padding: 5px;
+
+    
+
+}
+ .info ul:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+}
+
+ .info ul svg:hover{
+    background-color: rgba(39, 133, 247, 1);
+    fill: white;
+}

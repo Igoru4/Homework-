@@ -1,0 +1,197 @@
+@import url(.//fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+   
+}
+ul{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    padding: 44px;
+    margin: 0 auto;
+    
+}
+li{
+    list-style-type: none;
+    margin: 0 auto;
+    font-family: 'Bahij';
+    font-size: 30px;
+   
+  
+}
+a{
+    transition: all .5s;
+}
+li a:hover{
+    cursor: pointer;
+    color: rgba(39, 133, 247, 1);
+}
+.main{
+  
+    margin: 0 auto;
+    font-family: 'Bahij';
+    height: 75vh;
+    width: 97%;
+    background-color: rgba(234, 235, 237, 1);
+    border-radius: 15px;
+   
+}
+aside {
+    position: absolute;
+    max-width: 105px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 50px 15px 0 24px;
+    padding: 34px 20px;
+}
+main {
+    width: 100%;
+    padding: 0 15px 0 34px;
+}
+.menu-icon {
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition:.4s;
+    position: relative;
+}
+.menu-icon.folder{
+    background: #2785F7;
+    fill: #fff;
+}
+.menu-icon:hover {
+    background-color: #2785F7;
+}
+.menu-icon svg{
+    display: block;
+    width: 100%;
+}
+.menu-icon:hover svg {
+    fill: #fff;
+}
+.menu-icon::after{
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    left: 80%;
+    top: 0;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Chronic';
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+.menu-icon.folder::after{
+    content: 'Project';
+    
+}
+.menu-icon.monitor::after{
+    content: 'Account';
+}
+.menu-icon.users::after{
+    content: 'Groups';
+}
+.menu-icon.cloud::after{
+    content: 'Cloud';
+}
+.menu-icon.cog::after{
+    content: 'Setting';
+}
+
+.menu-icon:hover::after{
+    background-color: #2785F7;
+    width: 150%;
+    
+}
+
+
+
+
+.one{
+    width: 42%;
+    height: 15vh;
+    margin-left: 11%;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 25px;
+    font-size: larger;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 20px;
+}
+p{
+    font-size: 25px;
+}
+span{
+    color: rgba(177, 177, 177, 1);
+}
+.two{
+    width: 50%;
+    height: 15vh;
+    margin-left: 11%;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: larger;
+    margin-top: 11%;
+    background-color: white;
+    border-radius: 20px;
+}
+.three{
+    width: 50%;
+    height: 25vh;
+    margin-left: 11%;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+    font-size: larger;
+    margin-top: 20%;
+    background-color: white;
+    border-radius: 20px;
+}
+.three img{
+    width: 16%;
+    float: left;
+    margin-right: 50px;
+}
+.four{
+    width: 38%;
+    height: 15vh;
+    margin-left: 56%;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 25px;
+    font-size: larger;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 20px;
+}
+.five{
+    width: 29%;
+    height: 44vh;
+    margin-left: 65%;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right: 25px;
+    font-size: larger;
+    margin-top: 11%;
+    background-color: white;
+    border-radius: 20px;
+}
+.five img{
+    width: 26%;
+   
+}
