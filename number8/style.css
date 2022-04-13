@@ -1,0 +1,361 @@
+@import url(./fonts.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanin-reg';
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img{
+    padding:41px 0 38px 0;
+}
+
+.menu-icon{
+    width: 34px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 1300px;
+    
+
+}
+.menu-icon::before,
+.menu-icon::after{
+    content: '';
+    width: 34px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+}
+.menu-icon::before{
+    top:-8px;
+}
+.menu-icon::after{
+    top: 8px;
+}
+.dropdown-content a {
+    color: black;
+    padding-left:82px ;
+    text-decoration: none;
+    display: block;
+    font-family: 'Kanin-med';
+    font-size: 14px;
+    text-decoration: underline;
+}
+.dropdown-content {
+    display: none;
+    padding-top: 46px;
+    padding-bottom: 61px;
+    position: absolute;
+    background-color: #fff;
+    width: 344px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.menu-icon:hover .dropdown-content {
+    display: block;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+   
+}
+.head img{
+    width: 50%;
+
+}
+
+.foto-2{
+    width: 50%;
+    /* display: block; */
+    background-image: url(./img/2.png);
+    color: white;
+    background-size: 50%;
+    
+    
+}
+
+.data{
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 7px;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 0;
+    font-family: 'Kanin-med';
+    font-weight:normal;
+}
+ .text{
+    font-size: 16px;
+    display: inline-block;
+    margin-left:  39%;
+    font-weight: normal;
+    font-family: 'Kanin-med';
+    text-decoration: underline;
+  
+    font-size: 16px;
+}
+h1{
+    text-transform:uppercase;
+    margin-top: 9.5%;
+    margin-left: 15%;
+    
+    word-spacing: 5px;
+    font-size:28px;
+    font-family:'Kanin-med';
+    
+}
+
+p{
+    font-family: 'Kanin-light';
+    font-size: 14px;
+    margin-top: 4%;
+    margin-right: 15%;
+    margin-left: 15%;
+
+    
+}
+.foto-2 input{
+    width: 27.5%;
+    font-family: 'Kanin-med';
+    font-size: 14px;
+    padding: 19px 66px 19px 66px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
+.first-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10.416%;
+}
+
+.left{
+    width:49%;
+
+}
+
+
+.right{
+    width:49%;
+
+}
+h2{
+    margin-top: 59px;
+    margin-left: 10.4%;
+    font-weight: normal;
+    font-family:'Kanin-med';
+    font-size: 18px;
+}
+.text2{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 0;
+    margin-top: 19px;
+}
+.text3{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 0;
+    margin-top: 15px;
+}
+.text4{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 0;
+    margin-top: 5px;
+}
+.data2{
+    font-size: 11px;
+    font-family:'Kanin-bold';
+    letter-spacing: 6px;
+    
+}
+.life{
+    font-size: 12px;
+    font-family:'Kanin-med';
+    text-decoration: underline;
+}
+.lorem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10.416%;
+}
+h3{
+    font-family: 'Kanin-med';
+    font-size: 24px;
+    
+}
+h4{
+    font-family:'Kanin-light';
+    font-size: 18px;
+    margin-top: 20px;
+  
+}
+.lorem-left{
+    width:49%;
+
+}
+
+
+.lorem-right{
+    width:49%;
+
+}
+.three-photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 63px 10.416%;
+}
+.three-photo .one{
+    width: 31.75%;
+}
+.three-photo .two{
+    width: 31.75%;
+}
+.three-photo .three{
+    width: 31.75%;
+}
+.three-photo h2{
+    text-transform:uppercase;
+    margin: 20px 0 0 0;
+}
+.see-all{
+    
+    text-align: center;
+}
+.see-all input{
+    background-color: rgba(31, 31, 29, 1);
+    color: white;
+    font-size: 14px;
+    font-family: 'Kanin-med';
+    width: 16.5%;
+    padding: 8px 88px;
+}
+.second-block{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 71.33px;
+    margin-bottom: 65px;
+}
+.second-block img{
+    width: 39.7%;
+
+}
+
+.bg{
+    width: 39.7%;
+    background-image: url(./img/2.png);
+    color: white;
+    background-size:39.7%;
+    
+    
+}
+.bg h1{
+    font-size: 33px;
+    margin: 124px 120px 0 120px;
+}
+.bg input{
+    width: 34.6%;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 14px;
+    font-family: 'Kanin-med';
+    padding: 10px 46px;
+    margin: 20px 186px;
+}
+.three-photo-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 10.416%;
+}
+.three-photo-2 .one{
+    width: 31.75%;
+}
+.three-photo-2 .two{
+    width: 31.75%;
+}
+.three-photo-2 .three{
+    width: 31.75%;
+}
+.three-photo-2 h2{
+    margin-top: 24px;
+    margin-left: 0;
+    text-transform:uppercase;
+    font-weight: normal;
+    font-family:'Kanin-med';
+    font-size: 19px;
+   
+}
+.see-all-2{
+    
+    text-align: center;
+}
+.see-all-2 input{
+    margin-top: 8px;
+    background-color: rgba(31, 31, 29, 1);
+    color: white;
+    font-size: 14px;
+    font-family: 'Kanin-med';
+    width: 16.5%;
+    padding: 8px 88px;
+}
+
+.h2 h2{
+    margin-top: 35px;
+    margin-left: 10.4%;
+    font-weight: normal;
+    font-family:'Kanin-med';
+    font-size: 18px;
+}
+.see-all-3{
+    
+    text-align: center;
+}
+.see-all-3 input{
+
+    background-color: rgba(31, 31, 29, 1);
+    color: white;
+    font-size: 14px;
+    font-family: 'Kanin-med';
+    width: 16.5%;
+    padding: 8px 88px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 100px;
+}
+.foot span{
+    color: #fff;
+    font-family: 'Kanin-light';
+    font-size: 12px;
+    
+}
+.logo-2 img{
+    padding:50px 0 38px 0;
+}
