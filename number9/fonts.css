@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "Kanin-reg";
+    src: url('./fonts/Kanit-Regular.ttf');
+}
+@font-face{
+    font-family: "Kanin-med";
+    src: url('./fonts/Kanit-Medium.ttf');
+}
+@font-face{
+    font-family: "Kanin-thin";
+    src: url('./fonts/Kanit-Thin.ttf');
+}
+@font-face{
+    font-family: "Kanin-bold";
+    src: url('./fonts/Kanit-Bold.ttf');
+}
+@font-face{
+    font-family: "Kanin-light";
+    src: url('./fonts/Kanit-Light.ttf');
+}
