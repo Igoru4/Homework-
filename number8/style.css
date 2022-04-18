@@ -132,7 +132,7 @@ p{
     width: 27.5%;
     font-family: 'Kanin-med';
     font-size: 14px;
-    padding: 19px 66px 19px 66px;
+    padding: 3% 8%;
     background-color: transparent;
     color: white;
     border-color: white;
@@ -146,17 +146,10 @@ p{
     justify-content: space-between;
     padding: 30px 10.416%;
 }
-
-.left{
-    width:49%;
-
+.first-block img{
+    width: 100%;
 }
 
-
-.right{
-    width:49%;
-
-}
 h2{
     margin-top: 59px;
     margin-left: 10.4%;
@@ -358,4 +351,338 @@ footer{
 }
 .logo-2 img{
     padding:50px 0 38px 0;
+}
+
+
+@media screen and (max-width: 1240px) {
+    .first-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 10.416%;
+    }
+    .first-block img{
+        width: 105%;
+    }
+    .left{
+        padding-right: 100px;
+    }
+    .lorem-right{
+        padding-left: 40px;
+    }
+    .lorem-left{
+        padding-right: 40px;
+    }
+    .three-photo{
+        width: 100%;
+        
+    }
+    .three-photo .one img{
+        width: 100%;
+    }
+    .three-photo .two img{
+        width: 100%;
+    }
+    .three-photo .three img{
+        width: 100%;
+    }
+    .see-all input{
+        
+        padding: 8px 10px;
+    }
+    
+    
+    
+    
+    .bg h1{
+        
+        margin: 100px 50px 0 80px;
+    }
+    .bg input{
+        
+        padding: 10px 26px;
+        margin: 20px 156px;
+    }
+    .three-photo-2 .one img{
+        width: 100%;
+    }
+    .three-photo-2 .two img{
+        width: 100%;
+    }
+    .three-photo-2 .three img{
+        width: 100%;
+    }
+    .see-all-2 input{
+        
+        padding: 8px 10px;
+    }
+    .see-all-3 input{
+        
+        padding: 8px 10px;
+    }
+}
+@media screen and (max-width: 768px){
+  
+        
+        
+    
+    
+    .data{
+        font-size: 12px;
+      
+        letter-spacing: 5px;
+        margin-top: 70px;
+        margin-left: 20px;
+        margin-right: 0;
+        
+    }
+     .text{
+        font-size: 12px;
+       
+        margin-left:  39%;
+      
+        font-family: 'Kanin-light';
+    }
+    h1{
+        
+        margin-top: 10px;
+        margin-left: 20px;
+        font-family: 'Kanin-light';
+        word-spacing: 5px;
+        font-size:18px;
+       
+        
+    }
+    
+    p{
+        font-family: 'Kanin-light';
+        font-size: 12px;
+        margin-top: 4%;
+        margin-right: 15%;
+        margin-left: 20px;
+    
+        
+    }
+    .foto-2 input{
+        width: 198px;
+        font-size: 12px;
+        padding:11px 65px;
+       
+        margin-top: 7%;
+        margin-left: 20px;
+    }
+    .first-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 24px;
+    }
+    .first-block img{
+        width: 100%;
+    }
+    .left{
+        padding-right: 10px;
+    }
+    .lorem{
+        padding: 30px 24px;
+    }
+    .lorem-right{
+        padding: 0;
+    }
+    .three-photo{
+        padding: 30px 24px;
+    }
+    .three-photo-2{
+        padding: 30px 24px;
+    }
+    .three-photo-3{
+        padding: 30px 24px;
+    }
+  
+    .second-block img{
+        width: 359px;
+
+    }
+    .bg{
+        width: 359px;
+        
+        
+        
+    }
+
+    h2{
+        margin-left: 20px;
+    }
+    .h2 h2{
+        margin-left: 20px;
+    }
+    .bg h1{
+        font-size: 16px;
+        margin: 90px 90px 0 90px;
+    }
+    .bg input{
+        width: 198px;
+        padding: 10px 26px;
+        margin: 20px 81px;
+    }
+}
+@media screen and (max-width: 320px){
+    .head{
+        display: inline-block;
+        width: 100%;
+       
+    }
+    .head img{
+        width: 100%;
+    
+    }
+    
+    .foto-2{
+        width: 100%;
+        height: 250px;
+        background-size: 100%;
+        
+        
+    }
+    
+    .data{
+        font-size: 12px;
+       
+        letter-spacing: 4px;
+        margin-top: 12px;
+        margin-left: 15px;
+        
+    }
+     .text{
+        font-size: 12px;
+        margin-left:  85px;
+        
+    }
+    h1{
+        
+        margin-left: 15px;
+        
+        word-spacing: 5px;
+        font-size:18px;
+       
+        
+    }
+    
+    p{
+        font-family: 'Kanin-light';
+        font-size: 12px;
+       
+        margin-left: 15px;
+    
+        
+    }
+    .foto-2 input{
+        margin-left: 15px;
+    }
+    h2{
+        margin-left: 15px;
+    }
+    .h2 h2{
+        margin-left:15px;
+    }
+    .first-block{
+        width: 100%;
+        display: inline-block;
+        justify-content: space-between;
+        padding: 16px 12px;
+    }
+    .first-block img{
+        width: 100%;
+    }
+    .left{
+        padding-right: 0;
+    }
+    .three-photo{
+        width: 100%;
+        display: inline-block;
+        padding: 16px 12px;
+    }
+    .three-photo-2{
+        width: 100%;
+        display: inline-block;
+        padding: 16px 12px;
+    }
+    .three-photo-3{
+        width: 100%;
+        display: inline-block;
+        padding: 16px 12px;
+    }
+    .three-photo .one{
+        width: 100%;
+    }
+    .three-photo .two{
+        width: 100%;
+    }
+    .three-photo .three{
+        width: 100%;
+    }
+    .three-photo-2 .one{
+        width: 100%;
+    }
+    .three-photo-2 .two{
+        width: 100%;
+    }
+    .three-photo-2 .three{
+        width: 100%;
+    }
+    .three-photo-3 .one{
+        width: 100%;
+    }
+    .three-photo-3 .two{
+        width: 100%;
+    }
+    .three-photo-3 .three{
+        width: 100%;
+    }
+    .second-block{
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .second-block img{
+        width: 100%;
+    
+    }
+    .bg{
+        width: 100%;
+        height: 180px;
+        
+        
+    }
+    .bg h1{
+        padding: 30px 60px;
+        margin: 0;  
+        font-size: 18px;
+    }
+    .bg input{
+        margin-left: 60px;
+    }
+    .lorem{
+        width: 100%;
+        display: inline-block;
+        justify-content: space-between;
+        padding: 0 12px;
+    }
+    .lorem-right{
+        padding-left: 0;
+        width: 100%;
+    }
+    .lorem-left{
+        padding-right: 0;
+        width: 100%;
+    }
+    .see-all input{
+        width: 240px;
+            }
+    .see-all-2 input{
+        width: 240px;
+            }
+    .see-all-3 input{
+        width: 240px;       
+    }
 }
