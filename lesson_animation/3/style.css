@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./space.jpg);
+    background-size: cover;
+    overflow-y:hidden;
+  }
+  
+  .container {
+    position: relative;
+  }
+  .planet {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    overflow:hidden;
+  }
+  .planet img{
+    width: 100%;
+  }
+  
+
+  .moon {
+    position: absolute;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    top:-135px;
+    left:-175px;
+    overflow:hidden;
+    offset-path: path("M280.25,191c38.55,0,74.78,5.44,102,15.32C409.18,216.08,424,228.93,424,242.5s-14.82,26.42-41.74,36.18C355,288.56,318.8,294,280.25,294s-74.78-5.44-102-15.32c-26.91-9.76-41.74-22.61-41.74-36.18s14.83-26.42,41.74-36.18c27.24-9.88,63.47-15.32,102-15.32m0-1c-79.95,0-144.76,23.51-144.76,52.5S200.3,295,280.25,295,425,271.49,425,242.5,360.19,190,280.25,190Z");
+    animation: move 6s linear infinite;
+    
+    
+  }
+  .moon img{
+      width: 100%;
+      
+  }
+  
+  
+  @keyframes move {
+    100% { 
+      offset-distance: 50%;
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  .behind {
+    position: absolute;
+    width:200px;
+    height:100px;
+    top:0;
+    overflow:hidden;
+  }
+  .behind img{
+    width: 100%;
+  }
+   
+  
+  
