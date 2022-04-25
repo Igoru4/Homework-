@@ -1,0 +1,123 @@
+@mixin square($size, $color) {
+    width: $size;
+    background-color: $color;
+
+}
+$color-twitter:rgb(113, 237, 248);
+$color-facebook:rgb(58, 85, 164);
+$color-in:rgb(50, 89, 103);
+$color-inst:rgb(232, 19, 175);
+$color-youtube:rgb(235, 15, 15);
+$color-tumblr:rgb(188, 160, 57);
+$color-dribbble:rgb(232, 19, 86);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.setting{
+    @include square(100%,rgb(204, 94, 54));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container {
+   @extend .setting;
+}
+.content-wrapper {
+    display: flex;
+    background-color: rgb(52, 163, 190);
+    height: 30vh;
+    width: 100%;
+    .card-wrapper {
+        display: flex;
+        height: 100%;
+        background-color: rgb(65, 202, 236);
+    }
+}
+
+.card {
+    width: 80px;
+    height: 100%;
+    border-right: 1px solid gray;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .4s ease-out;
+}
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0; 
+    width: 0;
+    height: 100%;
+    transition: .2s ease-in-out;
+}
+.twitter::after{
+    background-color: $color-twitter;
+}
+.facebook::after{
+    background-color: $color-facebook;
+}
+.in::after{
+    background-color: $color-in;
+}
+.inst::after{
+    background-color: $color-inst;
+}
+.youtube::after{
+    background-color: $color-youtube;
+}
+.tumblr::after{
+    background-color: $color-tumblr;
+}
+.dribbble::after{
+    background-color: $color-dribbble;
+}
+
+.card svg {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 100%;
+    padding: 0 15px;
+    z-index: 100;
+    transition: .3s ease-in;
+}
+.card svg:last-child {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    transform: scale(1.2);
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    height: 100%;
+    padding: 0;
+    min-width: 0;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .4s ease-out;
+}
+
+.card:hover ~ .desc {
+    padding: 20px;
+    min-width: 350px;
+    opacity: 1;
+}
+.card:hover::after {
+    width: 100%;
+}
+.card:hover svg:first-child {
+    fill: #fff;
+    transform: translateX(-100%);
+}
+.card:hover svg:last-child {
+    right: 0;
+}
