@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif !important;
+}
+.head{
+    width: 100%;
+    background-image: url(./img/bg.png);
+    height: 768px;
+    color: #fff !important;
+    
+}
+
+.navbar-brand{
+    color: #fff !important;
+    font-size: 24px !important;
+    margin-left: 11.5%;
+    margin-top: 93px;
+}
+.nav-link{
+    color: #fff !important;
+    /* margin-top: 93px; */
+    margin-right: 50px;
+}
+
+.head h1{
+    font-size: 64px;
+    margin-left: 11.5%;
+    padding-top: 167px;
+}
+.head h3{
+    font-size: 24px;
+    margin-left: 11.5%;
+    padding-top: 26px;
+}
+.head p{
+    font-size: 18px;
+    margin-left: 11.5%;
+    padding-top: 106px;
+    
+}
+.about{
+    width: 76.875%;
+    margin: 0 auto;
+}
+.about h1{
+    font-size: 24px;
+    margin-top: 93px;
+}
+.about p{
+    text-align: 18px;
+    margin-top: 76px;
+    margin-bottom: 115px;
+}
+
+.skills-section{
+    background-color: #FFFAF2 !important;
+    
+}
+.container{
+    width: 76.875% !important;
+    padding: 0 !important;
+}
+.container h2{
+    font-size: 24px;
+    margin-top: 93px;
+    margin-bottom: 86px;
+}
+.skills-container{
+    font-size: 18px;
+    padding-bottom: 145px;
+}
+.skills-title {
+    padding-bottom: 65px;
+}
+.skills-list li {
+    list-style-type: none ;
+    padding-top: 12px;
+}
+.skills-list-progress li {
+    list-style-type: none ;
+    padding-top: 13px;
+}
+.progress{
+    background-color: #F5D6AB !important;
+}
+.progress-bar{
+    background-color: #C66C49 !important;
+    
+}
+.text-uppercase{
+    width: 100% !important;
+}
+h5{
+    font-size: 24px !important;
+}
+h4{
+    visibility: hidden;
+}
+.footer{
+    background-color: #FFFAF2 !important;
+    
+    
+}
+.row{
+    
+    margin-left: 11.45% !important;
+}
+.about h2{
+    font-size: 18px;
+    margin-top: 86px;
+}
+.block{
+    width: 76.875%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 145px;
+    margin-top: 43px;
+}
+.text-2{
+    width: 349px;
+}
+.img-1{
+    margin-left: 200px;
+   
+}
+.img-1 img{
+    padding: 10px;
+}
+.img-2 img{
+    padding: 10px;
+}
+.text-2 img{
+    margin-top:180px;
+}
